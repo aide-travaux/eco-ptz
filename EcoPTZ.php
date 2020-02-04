@@ -36,7 +36,7 @@ abstract class EcoPTZ
      */
     const REFERENCES = [
         'https://www.ecologique-solidaire.gouv.fr/eco-pret-taux-zero-eco-ptz',
-        "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000020459597"
+        'https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000020459597'
     ];
 
     /**
