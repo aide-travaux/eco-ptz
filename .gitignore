@@ -2,4 +2,3 @@ vendor/
 composer.lock
 phpunit.xml
 index.php
-.phpunit.result.cache
