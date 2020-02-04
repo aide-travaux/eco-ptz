@@ -3,6 +3,7 @@
 namespace AideTravaux\EcoPTZ\Tests\Utils;
 
 use PHPUnit\Framework\TestCase;
+use AideTravaux\EcoPTZ\EcoPTZ;
 use AideTravaux\EcoPTZ\Data\Entries;
 use AideTravaux\EcoPTZ\Model\ConditionInterface;
 use AideTravaux\EcoPTZ\Utils\ConditionsResolver;
@@ -15,6 +16,10 @@ class ConditionsResolverTest extends TestCase
     public function testResolveConditions($model)
     {
         $this->assertTrue(\is_array(ConditionsResolver::resolveConditions($model)));
+        $this->assertEquals(
+            \count(ConditionsResolver::resolveConditions($model)),
+            \count(EcoPTZ::CONDITIONS)
+        );
     }
 
     /**
