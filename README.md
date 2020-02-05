@@ -110,6 +110,30 @@ EcoPTZ::resolveConditions($data);
 
 ```
 
+## Base de données
+
+| Code | Travaux |
+| ---- | ------- |
+| EPTZ-01 | Isolation des planchers de combles perdus |
+| EPTZ-02 | Isolation des rampants de toiture et plafonds de combles |
+| EPTZ-03 | Isolation des rampants de toiture et plafonds de combles |
+| EPTZ-04 | Isolation des murs donnant sur l'extérieur |
+| EPTZ-05 | Isolation des planchers bas sur sous-sol, vide sanitaire ou passage ouvert |
+| EPTZ-06 | Pose de fenêtres ou portes-fenêtres |
+| EPTZ-07 | Pose de fenêtres en toitures |
+| EPTZ-08 | Pose d'une seconde fenêtre à double vitrage renforcé devant une fenêtre existante |
+| EPTZ-09 | Installation d'une chaudière gaz à très haute performance énergétique avec programmateur de chauffage |
+| EPTZ-10 | Installation d'une chaudière micro-cogénération gaz avec programmateur de chauffage |
+| EPTZ-11 | Installation d'une PAC air/eau avec programmateur de chauffage |
+| EPTZ-12 | Installation d'une PAC géothermique à capteur fluide frigorigène, de type eau glycolée/eau ou de type eau/eau avec programmateur de chauffage |
+| EPTZ-13 | Installation d'équipements de raccordement à un réseau de chaleur |
+| EPTZ-14 | Installation d'une chaudière bois |
+| EPTZ-15 | Installation d'un poêle à bois, foyer fermé, insert de cheminée intérieure ou cuisinière |
+| EPTZ-16 | Installation d'équipement de chauffage fonctionnant à l'énergie hydraulique ou à l'énergie solaire |
+| EPTZ-17 | Installation de capteurs solaires pour la production d'ECS ou les produits mixtes (ECS et chauffage) |
+| EPTZ-18 | Installation d'une PAC dédiée à la production d'eau chaude sanitaire |
+| EPTZ-19 | Installation d'équipement de fourniture d'eau chaude sanitaire fonctionnant à l'énergie hydraulique |
+
 ## Sources
 
 - [Article 244 quater U du code général des impôts](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=F384DBA1923D5C97C47DFDC2B95447D2.tplgfr36s_3?idArticle=LEGIARTI000041466825&cidTexte=LEGITEXT000006069577&categorieLien=id&dateTexte=)
