@@ -1,6 +1,6 @@
 {
     "name": "aide-travaux/eco-ptz",
-    "description": "Aide financière travaux - Éco-prêt à taux zéro",
+    "description": "Aide travaux - Éco-prêt à taux zéro",
     "type": "library",
     "license": "MIT",
     "authors": [
