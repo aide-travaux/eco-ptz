@@ -7,7 +7,7 @@ use AideTravaux\EcoPTZ\Repository\Repository;
 
 class RepositoryTest extends TestCase
 {
-    public function testGetOneOrNull($constant)
+    public function testGetOneOrNull()
     {
         $this->assertTrue(\is_string(Repository::getOneOrNull('EPTZ-01')));
         $this->assertNull(Repository::getOneOrNull(''));
