@@ -4,8 +4,8 @@ namespace AideTravaux\EcoPTZ\Tests\Database;
 
 use PHPUnit\Framework\TestCase;
 use AideTravaux\EcoPTZ\Database\Database;
-use AideTravaux\EcoPTZ\Database\DBInterface;
-use AideTravaux\EcoPTZ\Database\DBTrait;
+use AideTravaux\EcoPTZ\Database\DatabaseInterface;
+use AideTravaux\EcoPTZ\Database\DatabaseTrait;
 
 class DatabaseTest extends TestCase
 {
@@ -27,7 +27,7 @@ class DatabaseTest extends TestCase
      */
     public function testClassInterface($class)
     {
-        $this->assertTrue(\in_array(DBInterface::class, \class_implements($class)));
+        $this->assertTrue(\in_array(DatabaseInterface::class, \class_implements($class)));
     }
 
     /**
@@ -35,7 +35,7 @@ class DatabaseTest extends TestCase
      */
     public function testClassTrait($class)
     {
-        $this->assertTrue(\in_array(DBTrait::class, \class_uses($class)));
+        $this->assertTrue(\in_array(DatabaseTrait::class, \class_uses($class)));
     }
 
     /**

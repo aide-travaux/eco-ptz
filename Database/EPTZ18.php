@@ -2,9 +2,9 @@
 
 namespace AideTravaux\EcoPTZ\Database;
 
-abstract class EPTZ18 implements DBInterface
+abstract class EPTZ18 implements DatabaseInterface
 {
-    use DBTrait;
+    use DatabaseTrait;
     
     /**
      * @property string

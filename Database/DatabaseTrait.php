@@ -2,7 +2,7 @@
 
 namespace AideTravaux\EcoPTZ\Database;
 
-trait DBTrait
+trait DatabaseTrait
 {
     /**
      * @inheritdoc
