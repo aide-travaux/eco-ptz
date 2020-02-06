@@ -86,7 +86,7 @@ abstract class EcoPTZ
     public static function getPlafond(DataInterface $model): int
     {
         switch ($model->getEptzTypeProjet()) {
-            case Entries::TYPES_PROJET_EPTZ['type_projet_eptz_1']:
+            case Entries::EPTZ_TYPES_PROJET['eptz_type_projet_1']:
                 switch ($model->getEcoPTZCodeTravaux()) {
                     case 'EPTZ-06':
                         return 7000;
@@ -97,13 +97,13 @@ abstract class EcoPTZ
                     default:
                         return 15000;
                 }
-            case Entries::TYPES_PROJET_EPTZ['type_projet_eptz_2']:
+            case Entries::EPTZ_TYPES_PROJET['eptz_type_projet_2']:
                 return 25000;
-            case Entries::TYPES_PROJET_EPTZ['type_projet_eptz_3']:
+            case Entries::EPTZ_TYPES_PROJET['eptz_type_projet_3']:
                 return 30000;
-            case Entries::TYPES_PROJET_EPTZ['type_projet_eptz_4']:
+            case Entries::EPTZ_TYPES_PROJET['eptz_type_projet_4']:
                 return 30000;
-            case Entries::TYPES_PROJET_EPTZ['type_projet_eptz_5']:
+            case Entries::EPTZ_TYPES_PROJET['eptz_type_projet_5']:
                 return 10000;
             default:
                 return 0;

@@ -60,7 +60,7 @@ class ConditionsResolverTest extends TestCase
         $stub = $this->createMock(ConditionInterface::class);
 
         $stub->method('getEcoPTZCodeTravaux')->willReturn('EPTZ-01');
-        $stub->method('getEptzTypeProjet')->willReturn(Entries::TYPES_PROJET_EPTZ['type_projet_eptz_1']);
+        $stub->method('getEptzTypeProjet')->willReturn(Entries::EPTZ_TYPES_PROJET['eptz_type_projet_1']);
         $stub->method('getTypeLogement')->willReturn(Entries::TYPES_LOGEMENT['type_logement_1']);
         $stub->method('getStatutOccupantLogement')
             ->willReturn(Entries::STATUTS_OCCUPANT_LOGEMENT['statut_occupant_logement_1']);

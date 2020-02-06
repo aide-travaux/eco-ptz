@@ -41,8 +41,8 @@ abstract class ConditionsResolver
             ], [
                 'condition' => $conditions[4],
                 'value' => \in_array($model->getEptzTypeProjet(), [
-                    Entries::TYPES_PROJET_EPTZ['type_projet_eptz_4'],
-                    Entries::TYPES_PROJET_EPTZ['type_projet_eptz_5']
+                    Entries::EPTZ_TYPES_PROJET['eptz_type_projet_4'],
+                    Entries::EPTZ_TYPES_PROJET['eptz_type_projet_5']
                 ]) || !empty(Repository::getOneOrNull( $model->getEcoPTZCodeTravaux() ))
             ]
         ];

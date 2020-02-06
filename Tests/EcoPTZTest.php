@@ -46,7 +46,7 @@ class EcoPTZTest extends TestCase
         $stub = $this->createMock(DataInterface::class);
 
         $stub->method('getEcoPTZCodeTravaux')->willReturn('EPTZ-01');
-        $stub->method('getEptzTypeProjet')->willReturn(Entries::TYPES_PROJET_EPTZ['type_projet_eptz_1']);
+        $stub->method('getEptzTypeProjet')->willReturn(Entries::EPTZ_TYPES_PROJET['eptz_type_projet_1']);
         $stub->method('getCoutTTC')->willReturn((float) 1);        
 
         return [ [ $stub ] ];
