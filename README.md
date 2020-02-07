@@ -116,7 +116,7 @@ EcoPTZ::resolveConditions($data);
 | ---- | ------- |
 | EPTZ-01 | Isolation des planchers de combles perdus |
 | EPTZ-02 | Isolation des rampants de toiture et plafonds de combles |
-| EPTZ-03 | Isolation des rampants de toiture et plafonds de combles |
+| EPTZ-03 | Isolation d'une toiture terrasse |
 | EPTZ-04 | Isolation des murs donnant sur l'extérieur |
 | EPTZ-05 | Isolation des planchers bas sur sous-sol, vide sanitaire ou passage ouvert |
 | EPTZ-06 | Pose de fenêtres ou portes-fenêtres |

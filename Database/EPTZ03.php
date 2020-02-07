@@ -9,7 +9,7 @@ abstract class EPTZ03 implements DatabaseInterface
     /**
      * @property string
      */
-    const NOM = 'Isolation des rampants de toiture et plafonds de combles';
+    const NOM = 'Isolation d\'une toiture terrasse';
 
     /**
      * @property string
