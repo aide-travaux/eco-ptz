@@ -13,13 +13,13 @@ abstract class EcoPTZ
     /**
      * @property string
      */
-    const NOM = 'Éco-prêt à taux éro';
+    const NOM = 'Éco-prêt à taux zéro';
 
     /**
      * @property string
      */
-    const DESCRIPTION = 'L\'éco-prêt à taux zéro est un prêt à taux d’intérêt nul et accessible sans condition de 
-    ressources, pour financer des travaux d’amélioration de la performance énergétique';
+    const DESCRIPTION = 'L\'éco-prêt à taux zéro est un prêt à taux d\'intérêt nul et accessible sans condition de 
+    ressources, pour financer des travaux d\'amélioration de la performance énergétique';
     
     /**
      * @property string
